@@ -84,6 +84,13 @@ const MonitoringEngg =() =>{
       Primary
       </Button>
       ),
+      createData('1234567', 'Buisness Integration Layer Customer Channel USA', 'Tier 0',
+      <Button className={classes.button} size="small" variant="contained" color="primary">
+      Adopt
+      </Button>,
+      <Button className={classes.button} variant="outlined" color="primary">
+      Primary
+      </Button>),
     ];
     return (
         <div className= {classes.spacing}>
